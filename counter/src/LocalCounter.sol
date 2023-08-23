@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
-import {IOmniPortal} from "@omni/contracts/contracts/interfaces/IOmniPortal.sol";
+import {IOmniPortal} from "omni-std/interfaces/IOmniPortal.sol";
 
 contract LocalCounter {
     uint256 public count;

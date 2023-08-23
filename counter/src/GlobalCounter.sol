@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8;
 
-import {OmniScient} from "@omni/contracts/contracts/OmniScient.sol";
-import {OmniCodec} from '@omni/contracts/contracts/OmniCodec.sol';
+import {OmniScient} from "omni-std/OmniScient.sol";
+import {OmniCodec} from 'omni-std/OmniCodec.sol';
 
 contract GlobalCounter is OmniScient {
     uint256 public count;
