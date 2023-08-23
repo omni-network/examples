@@ -1,8 +1,0 @@
-{
-  "packageManager": "yarn@3.5.0",
-  "dependencies": {
-    "@omni/contracts": "https://github.com/omni-network/omni-std",
-    "ds-test": "https://github.com/dapphub/ds-test",
-    "forge-std": "https://github.com/foundry-rs/forge-std"
-  }
-}
