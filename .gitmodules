@@ -1,0 +1,3 @@
+[submodule "counter/lib/omni-std"]
+	path = counter/lib/omni-std
+	url = https://github.com/omni-network/omni-std
