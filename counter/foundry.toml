@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+
+remappings = [
+  'forge-std/=lib/forge-std/src',
+  'ds-test/=lib/ds-test/src',
+  'omni-std/=lib/omni-std/contracts/',
+]
+
+libs = ["lib"]

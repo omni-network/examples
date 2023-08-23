@@ -1,0 +1,9 @@
+[submodule "counter/lib/omni-std"]
+	path = counter/lib/omni-std
+	url = https://github.com/omni-network/omni-std
+[submodule "counter/lib/ds-test"]
+	path = counter/lib/ds-test
+	url = https://github.com/dapphub/ds-test
+[submodule "counter/lib/forge-std"]
+	path = counter/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

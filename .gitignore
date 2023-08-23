@@ -1,0 +1,6 @@
+**/artifacts/
+**/build/
+**/cache/
+**/dist/
+**/node_modules/
+**/out/
