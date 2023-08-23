@@ -1,0 +1,23 @@
+.app {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100vw;
+  max-width: 120rem;
+  margin: auto;
+}
+
+.count {
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 30%;
+}
+
+.counts {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}

@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+
+remappings = [
+  'forge-std/=node_modules/forge-std/src',
+  'ds-test/=node_modules/ds-test/src',
+  # sadly forge won't let us do the remapping we want
+  # '@omni/contracts/=node_modules/@omni/contracts/contracts/',
+  '@omni/contracts/=node_modules/@omni/contracts/',
+]
+
+libs = ["node_modules", "lib"]
