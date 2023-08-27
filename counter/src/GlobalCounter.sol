@@ -29,8 +29,6 @@ contract GlobalCounter is OmniScient {
       omni.sendTx(
         chain,
         counter,
-        0, // value
-        100_000, // gas limit
         abi.encodeWithSignature("increment()")
       );
     }
