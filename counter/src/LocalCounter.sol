@@ -31,8 +31,6 @@ contract LocalCounter {
 
         omni.sendOmniTx(
             global,
-            0, // msg.value
-            100_000, // gas limit
             abi.encodeWithSignature("increment()")
         );
 
@@ -43,8 +41,6 @@ contract LocalCounter {
         omni.sendXChainTx(
             chain,
             counter,
-            0, // msg.value
-            100_000, // gas limit
             abi.encodeWithSignature("increment()")
         );
     }
